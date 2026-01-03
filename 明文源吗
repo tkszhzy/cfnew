@@ -32,6 +32,7 @@
     let kvConfig = {};
 
     const regionMapping = {
+        'MyProxy': ['甲骨文首尔', 'KR', 'South Korea'],
         'US': ['🇺🇸 美国', 'US', 'United States'],
         'SG': ['🇸🇬 新加坡', 'SG', 'Singapore'],
         'JP': ['🇯🇵 日本', 'JP', 'Japan'],
@@ -48,6 +49,7 @@
     };
 
     let backupIPs = [
+        { domain: 'v6.kykl.camdvr.org', region: 'KR', regionCode: 'KR', port: 443 },
         { domain: 'ProxyIP.US.CMLiussss.net', region: 'US', regionCode: 'US', port: 443 },
         { domain: 'ProxyIP.SG.CMLiussss.net', region: 'SG', regionCode: 'SG', port: 443 },
         { domain: 'ProxyIP.JP.CMLiussss.net', region: 'JP', regionCode: 'JP', port: 443 },
